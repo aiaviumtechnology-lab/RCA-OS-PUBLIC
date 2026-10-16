@@ -1,0 +1,147 @@
+# RCA-OS CONTRADICTION STATE — RATIFIED 2026-10-16
+# Status: EFFECTIVE for C1, C3-C7, C10, C12-C15; OPEN for C2, C8, C9, C11
+# Ratified: RCA-RAT-001 — FORM B (sole Board member), 2026-10-16
+# Standing debt: BOARD_REVIEW_DEBT — the first constituted Board must review it
+#
+# effective: true means the determination is in force. Only ratification sets it.
+# A contradiction is never closed by drafting.
+# Determinations below are RATIFIED (RCA-RAT-001).
+
+meta:
+  instrument: RCA-DEC-001
+  founder_instruction: "2026-10-16"
+  ratification_record: RCA-RAT-001
+  ratification_form: "B — sole Board member"
+  ratified_date: "2026-10-16"
+  standing_debt: BOARD_REVIEW_DEBT
+  rule: "A contradiction is never closed by drafting. Only ratification closes it."
+  closed_date: "2026-10-16"
+
+contradictions:
+
+  - id: C1
+    subject: ACT clearance tiers
+    provisional_determination: "Three tiers G1/G2/G3 (STRUCTURE OF THE CONSTITUTION section 5; active AM-XX section 5)"
+    disposition: CORRECTION
+    blocking: false
+    effective: true
+    note: >
+      "G1 Executive — full system access" is not a clearance. Full system access is Founder
+      authority under AM-XIX §2. This distinction must survive into every clearance check.
+
+  - id: C2
+    subject: What the Safety Spine is
+    provisional_determination: null
+    recommendation: "(a) Safety Spine = the UVS pipeline; SPINE-SAFETY and SPINE-VERIFICATION retire as duplicates of SPINE-UVS"
+    disposition: RESERVED
+    blocking: true
+    effective: false
+    blocks: "Safety pillar, UVS enforcement, spine-set completion"
+
+  - id: C3
+    subject: Financial mandate authority
+    provisional_determination: "Doctrine, precedence rank 6"
+    disposition: RECLASSIFICATION
+    blocking: false
+    effective: true
+
+  - id: C4
+    subject: "Document #1 authority and supremacy claims"
+    provisional_determination: "DOCTRINE, rank 6; supremacy claims struck"
+    disposition: RECLASSIFICATION
+    blocking: false
+    effective: true
+
+  - id: C5
+    subject: The seven principles — invariant or policy
+    provisional_determination: "Binding policy, rank 5; 'cannot be overridden' struck"
+    disposition: RECLASSIFICATION
+    blocking: false
+    effective: true
+
+  - id: C6
+    subject: A2A transport vs Supervisor orchestration
+    provisional_determination: "A2A is the transport; Supervisor is the sole orchestration/routing authority; 'no peer-to-peer' corrected to 'no unregistered routing'"
+    disposition: CORRECTION
+    blocking: false
+    effective: true
+
+  - id: C7
+    subject: Volume vs Article namespace
+    provisional_determination: "Articles I–XV only; volumes kept with a mapping note, never renumbered"
+    disposition: CORRECTION
+    blocking: false
+    effective: true
+
+  - id: C8
+    subject: Spine inventory — Data / Enforcement / Memory
+    provisional_determination: null
+    recommendation: "Not spines. Data = Article VI Storage/State subject matter; Enforcement = the Execution Spine's function; Memory = an unregistered subsystem specification."
+    disposition: RESERVED
+    blocking: true
+    effective: false
+    blocks: "Spine-set completion (Layer 2)"
+
+  - id: C9
+    subject: Directorate models
+    provisional_determination: null
+    recommendation: >-
+      Two tiers, not two lists: the 14 in DIRECTORATES.txt are the Directorates;
+      _#1 section 4's seven are the Executive layer (AM-XXII places the CEO office above them)
+    disposition: RESERVED
+    blocking: true
+    effective: false
+    blocks: "Directorate-set completion (Layer 4)"
+
+  - id: C10
+    subject: Pillar set
+    provisional_determination: >-
+      Seven pillars: Execution, Safety, Audit, Identity, Temporal, Event, World-State
+    disposition: CORRECTION
+    blocking: false
+    effective: true
+
+  - id: C11
+    subject: HallCo / HALLCO identity and expansion
+    provisional_determination: >-
+      One entity — expansion undecided (Article XI: "Legality Compliance"; UVS: "Consistency Office")
+    disposition: RESERVED
+    blocking: false
+    effective: false
+
+  - id: C12
+    subject: "Governance Pillar"
+    provisional_determination: "No such pillar. Article III §3.1 creates a Governance Kernel (function); issuer is the Governance Directorate through the Governance Spine"
+    disposition: CORRECTION
+    blocking: false
+    effective: true
+
+  - id: C13
+    subject: Integrity Spine and Master Spine in the directive lifecycle
+    provisional_determination: "Integrity Spine -> Verification Spine/UVS (Article X); Master Spine -> Governance Spine. No new spine created."
+    disposition: CORRECTION
+    blocking: false
+    effective: true
+
+  - id: C14
+    subject: Self-validating issuer; directive rank
+    provisional_determination: "issuer != validator != registrar != auditor (at least two outside Governance); directives rank BELOW policies (Article III §3.2) — 'Henceforth law' struck"
+    disposition: CORRECTION
+    blocking: false
+    effective: true
+
+  - id: C15
+    subject: Master Spine supremacy
+    provisional_determination: "A lattice tier, not a spine ID; supremacy struck (Article IX §9.2)"
+    disposition: CORRECTION
+    blocking: false
+    effective: true
+
+summary:
+  total: 15
+  correction: 11
+  reserved: 4
+  closed: 11
+  reserved_ids: [C2, C8, C9, C11]
+  blocking_ids: [C2, C8, C9]
+  effective: 11
