@@ -78,7 +78,7 @@ or an explicit "none". No section may silently resolve one.
 |---|---|---|
 | P0 | `_META` — publication metadata schema, register, contradiction register, this state | building |
 | P1 | **Constitutional Intent** → Part I–IV (flat, exact, canonical vocabulary; zero restructuring) | pending |
-| P2 | **Governance Spine** → structured version + incompleteness flag | pending |
+| `RCA-PUB-002` | **Governance Spine** — restructured, draft | published 2026-10-16 |
 | P3 | **Governance & Strategic Mandate** → reclassified doctrine + contradiction flags | pending |
 | P4+ | Articles, Spines, Pillars, UVS, TCO, Appendices (as directed) | pending |
 
