@@ -76,11 +76,12 @@ or an explicit "none". No section may silently resolve one.
 
 | Step | Section | Status |
 |---|---|---|
-| P0 | `_META` — publication metadata schema, contradiction register, build order, spine contract, spine baseline, this state | published |
+| P0 | `_META` — metadata schema, contradiction register, build order, spine contract, spine baseline, resolutions, decision + ratification records | **published** |
+| P0.9 | **RATIFICATION** — `RCA-DEC-001` Parts 1 and 3 in force; 11 contradictions closed | **done 2026-10-16** |
 | P1 | **Governance Spine** → restructured (11 sections, GS-1..8, carries C2/C7) | published 2026-10-16 |
 | P2 | **Constitutional Intent** → Part I–IV (flat, exact, canonical vocabulary; zero restructuring) | pending |
 | P3 | **Governance & Strategic Mandate** → reclassified doctrine + contradiction flags | pending |
-| P4 | **Spine set** — Execution + World-State format pass; then the 11 spines with no source | blocked on C8 |
+| P4 | **Spine set** — the 4 Article-backed spines first (HALLCO, DEEPGUARD, RRPO-SRE, Reasoning), then Execution + World-State format pass, then the remainder | **unblocked — C8 blocks only *completion*** |
 | P5 | **Pillar set** — Identity/Safety/Execution format pass; 4 registered with no source | blocked on C10 |
 | P6 | **Directorate set** | blocked on C9 |
 | P7+ | Policies, Regulations, then Agents | blocked by design |
