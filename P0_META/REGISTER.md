@@ -58,6 +58,7 @@ Layers 5–7 are gated on 1–4. Full criteria, per-layer status and the blocker
 - **What is *not* claimed:** authority, enforcement, ratification. `status: DRAFT`, `enforceable: false`.
 - **Before this can leave `DRAFT`:** Founder sign-off on the eight invariants and on the interpretation limits in §7.
 | `RCA-PUB-003` | Governance & Strategic Mandate (Document #1) | Doctrine / Policy-1 | Draft, unregistered | rank 6 until registered | UNTRUSTED | EDITORIAL | C1, C3, C4, C5, C6 | no |
+| `RCA-PUB-004` | **The Board of Directors — Charter** | Constitutional Charter (`EXEC-BOARD`) | Draft — requires Board adoption | Executive layer; above Directorates, below the Constitution | UNVERIFIED | RESTRUCTURED | C1, C2, C9, C11 | no |
 
 ## Not yet published
 
