@@ -1,0 +1,14 @@
+# RCA-OS PUBLICATION — DIGEST LEDGER (P0)
+# Generated: 2026-10-16T05:48:05Z (UTC) / 2026-10-16 00:48 CDT
+# Format: <sha256>  <path>
+
+ae14815644e6e8cb031939aa492e582b2c75733d47837c09b8868d33faeb7ed6  00-METADATA-SCHEMA.md
+60957411b93fa1718eab1b47de75e331ad83f69d73b800ba7c09f8accfc2f3b7  CONTRADICTIONS.md
+d36f9d455da4b1b438a1d35245d7fb57816a03e00bd833888f4b7d7f2bae6b2b  REGISTER.md
+
+# Source digest (canonical Constitution, as it stands in the worktree today)
+10e050dc6a9bb75d8dccc8a166881981495930cf338f2969da1f88abc71a2f96  /RCA/Constitution/Constitutional Intent — the highest form of authority inside RCA‑OS.txt
+
+# Related, recorded for provenance (NOT published)
+90e87eb7cb681d7eaef187f597e70cc27e3d795ce17215e5d2c55ec745a55f42  /RCA/Constitution/CONSTITUTIONAL REGISTER.md
+641019ce1e080185c05f3cb5f5894f980955ae243c57343029036a11182d10d6  /RCA/Constitution/STRUCTURE OF THE CONSTITUTION.docx.txt
