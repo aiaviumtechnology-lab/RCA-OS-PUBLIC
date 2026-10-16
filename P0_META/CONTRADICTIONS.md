@@ -32,6 +32,8 @@ both are published with the conflict flagged.
 
 ## Open contradictions
 
+**Open contradictions: 15** — C1–C15. Proposed determinations for every one: `RESOLUTIONS.md`.
+
 ### C1 — ACT clearance tiers: three or five?
 - **Severity:** S2 — Material
 - **A:** `Constitution/STRUCTURE OF THE CONSTITUTION.docx.txt` §5 — ACT defines **G1** Supreme
@@ -244,6 +246,17 @@ both are published with the conflict flagged.
 ---
 
 ## How to close a contradiction
+
+### Status (2026-10-16)
+
+Fifteen contradictions are open. `RESOLUTIONS.md` carries a proposed determination for each:
+**11 close on the Founder's signature** (they are errors — a document disagreeing with the
+Register about its own status, a rule asserting an ungranted authority, a stale digest), and
+**4 need a decision** (C2 Safety Spine, C8/C13 spine inventory, C9 directorate model, C11
+HallCo terminology).
+
+Until signed, every one of them remains **open**, and no published section may be cited as
+settling any of them.
 
 1. Founder records a decision (and Board ratification where the Register requires it).
 2. The affected source text is amended through the lawful process, or the losing document is
