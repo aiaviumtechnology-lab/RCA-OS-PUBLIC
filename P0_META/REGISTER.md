@@ -17,8 +17,28 @@
 | `RCA-PUB-META-001` | Publication Metadata Schema | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
 | `RCA-PUB-META-002` | Contradiction Register | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
 | `RCA-PUB-META-003` | Public Register (this file) | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
+| `RCA-PUB-META-004` | Constitutional Build Order | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
+| `RCA-PUB-META-005` | Spine Contract | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
+| `RCA-PUB-META-006` | Spine Baseline (layer 2 measurement) | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
 | `RCA-PUB-001` | Constitutional Intent (Part I–IV) | Constitution | Canonical text, ratification evidence outstanding | rank 1 (supreme) | TRUSTED | EXACT | none | partial (47/70 compiled rules enforced) |
 | `RCA-PUB-002` | Governance Spine | Spine | Draft | rank 4 (subordinate specification) | UNVERIFIED | RESTRUCTURED | C2, C7 | no |
+
+## The four-layer build order
+
+The Founder set the construction order on 2026-10-16:
+
+```
+1. Constitution  2. Spines  3. Pillars  4. Directorates  → 5. Policies  6. Regulations  → 7. Agents
+```
+
+Layers 5–7 are gated on 1–4. Full criteria, per-layer status and the blocker list are in
+`P0_META/BUILD-ORDER.md`. Layer 2 (Spines) is measured in
+`2_GOVERNANCE-SPINE/SPINE-BASELINE.md` and defined by `2_GOVERNANCE-SPINE/SPINE-CONTRACT.md`.
+
+> The build order is **not** the authority order. Authority runs
+> `Constitution → Governance Spine → Policies → Regulations → Directives → Config → Code`.
+> The Governance Spine is *rank 4* in authority and a *Spine* in the build order. The two
+> orderings coexist and must not be read as one.
 
 ### `RCA-PUB-002` — Governance Spine, detail
 

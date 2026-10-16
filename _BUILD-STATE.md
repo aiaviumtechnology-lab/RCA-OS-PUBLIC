@@ -76,11 +76,32 @@ or an explicit "none". No section may silently resolve one.
 
 | Step | Section | Status |
 |---|---|---|
-| P0 | `_META` — publication metadata schema, register, contradiction register, this state | building |
-| P1 | **Constitutional Intent** → Part I–IV (flat, exact, canonical vocabulary; zero restructuring) | pending |
-| `RCA-PUB-002` | **Governance Spine** — restructured, draft | published 2026-10-16 |
+| P0 | `_META` — publication metadata schema, contradiction register, build order, spine contract, spine baseline, this state | published |
+| P1 | **Governance Spine** → restructured (11 sections, GS-1..8, carries C2/C7) | published 2026-10-16 |
+| P2 | **Constitutional Intent** → Part I–IV (flat, exact, canonical vocabulary; zero restructuring) | pending |
 | P3 | **Governance & Strategic Mandate** → reclassified doctrine + contradiction flags | pending |
-| P4+ | Articles, Spines, Pillars, UVS, TCO, Appendices (as directed) | pending |
+| P4 | **Spine set** — Execution + World-State format pass; then the 11 spines with no source | blocked on C8 |
+| P5 | **Pillar set** — Identity/Safety/Execution format pass; 4 registered with no source | blocked on C10 |
+| P6 | **Directorate set** | blocked on C9 |
+| P7+ | Policies, Regulations, then Agents | blocked by design |
+
+## 4a. The four-layer build order (set by the Founder 2026-10-16)
+
+```
+1. Constitution  2. Spines  3. Pillars  4. Directorates  → 5. Policies  6. Regulations  → 7. Agents
+```
+
+Policies and regulations come only after all four framework layers are complete, so that when
+agents are created a full framework already exists to guide them and to govern how RCA-OS
+evolves. Criteria and per-layer status: `P0_META/BUILD-ORDER.md`.
+
+**Layer 2 measured state:** 1 of 15 spines has a published specification (Governance, draft);
+2 have source text in the wrong format (Execution, World-State); 1 has a source with a digest
+mismatch (UVS); **11 have no source at all**. See `2_GOVERNANCE-SPINE/SPINE-BASELINE.md`.
+
+**The working documents claim "100% Spine completion" and "all 11 Pillars fully drafted".
+Neither claim survives measurement** — see C8 (spine inventory), C10 (pillar set), C9
+(directorate models).
 
 ---
 
