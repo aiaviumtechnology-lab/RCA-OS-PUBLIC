@@ -179,6 +179,68 @@ both are published with the conflict flagged.
   C2 (Safety Spine composition) turns on part of that question.
 - **Owner decision required:** yes.
 
+### C12 — "Governance Pillar": a fourth layer for one name
+- **Severity:** S1 — Blocking
+- **Source:** `Constitution/Governance Directives — the constitutional instructionern itself.txt` — "Governance Directives are the formal, binding outputs of the **Governance Pillar**" and "**Governance Pillar issues directive**".
+- **A (controlling):** the canonical Constitution names exactly seven Pillars — Execution, Safety,
+  Audit, Identity, Temporal, Event, World-State — and `PILLAR_TRACEABILITY.yaml` registers those
+  seven. There is **no Governance Pillar**. The canonical text creates a **Governance Kernel**
+  (Article III §3.1) within a Governance **Spine** and a Governance **Directorate**.
+- **B:** the working documents call Governance a **Pillar** and make it the *issuer* of binding
+  instruments.
+- **Consequence:** "Governance" now names a **Directorate** (`DIRECTORATES.txt`), a registered
+  **Spine** (`SPINE-GOVERNANCE`), a claimed **Pillar**, and the canonical **Kernel** — four
+  layers, one word. The Layer-4 consequence is specific and material: if Governance issues the
+  binding instrument *and* is a Directorate that must itself be governed by one, the independent
+  check is gone.
+- **Owner decision required:** yes.
+
+### C13 — The Governance Directive lifecycle assumes four spine concepts that are not registered
+- **Severity:** S1 — Blocking
+- **Source:** `Governance Directives … §4–§5` — the mandated lifecycle is
+  *Drafting (Governance Pillar) → Validation (**Integrity Spine**) → Authorization (Governance
+  Spine) → Registration (**Master Spine**) → Propagation → Enforcement → Audit → Arbitration*.
+- **A (controlling):** of the four spines in that chain, only **Governance** and **Audit** are
+  registered (and both are `source: null`). **Integrity Spine** and **Master Spine** are not
+  registered at all. `docs/phase0/CONTRADICTIONS.md` already records `Master Spine`,
+  `Verification Spine`, `Memory Spine` and `eBPF Spine` as competing names with no settled
+  relation to the registry.
+- **Consequence:** the lifecycle is **non-executable as written**. A directive cannot complete
+  step 2 (no Integrity Spine to validate) or step 4 (no Master Spine to register). Since
+  Article III §3.2 requires directives to be "signed, versioned, and traceable to sovereign
+  authority", an unregisterable directive cannot be shown to be lawful.
+- **Owner decision required:** yes.
+
+### C14 — The Directive lifecycle creates a circular authority
+- **Severity:** S1 — Blocking
+- **Source:** `Governance Directives … §4–§5` — the Governance Pillar *issues* the directive; the
+  Governance Spine then *interprets and signs* that directive; the same instrument is then what
+  binds the Spine.
+- **Consequence:** an interpreter that signs the instrument it later interprets is
+  self-validating. It contradicts:
+  - `AM-XIX §8` — no component may amend the Constitution by policy, regulation or output;
+  - `GS-4` (no self-authorisation) in `RCA-PUB-002` §5.3;
+  - the defence-in-depth the corpus relies on elsewhere (Validation by a *different* spine than
+    Authorization; Audit by a spine that did not produce the act).
+- **Also note:** §1 says directives are **"binding rules"** while the canonical Article III §3.2
+  places directives **below policies and regulations** in the hierarchy of norms. Either the
+  lifecycle is wrong about the rank, or the instrument is misnamed.
+- **Owner decision required:** yes.
+
+### C15 — "Master Spine" is a fifteenth-and-a-half spine
+- **Severity:** S2 — Material
+- **Source:** `Master Spine Supremacy Clause`, `Master Spine registers directive`, "Master Spine
+  Authority Over Workflows: the supreme constitutional authority over all workflows",
+  "System Spines directly bound to the Master Spine".
+- **A (controlling):** the registry has **no** `SPINE-MASTER`. The lattice in
+  `Spines/— each spine is a separate constitutional subsystem…` describes a four-rung vertical
+  binding *"Master Spine → Operational Spines → System Spines → Directorate Spines"* — a tier,
+  not a spine ID.
+- **Consequence:** a "supreme constitutional authority over all workflows" with no registry
+  entry, no jurisdiction, no invariants and no digest. Its claimed supremacy also collides with
+  Article IX §9.2, where the Constitution — not any spine — is supreme.
+- **Owner decision required:** yes.
+
 ---
 
 ## How to close a contradiction

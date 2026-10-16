@@ -165,6 +165,21 @@ as spines and sometimes as pillars.
 **Layer 3 status: 3 of 7 registered pillars have usable text; 4 have none; 4 unregistered
 pillars await a decision.**
 
+## 5.1 The Governance Directives mechanism (source added 2026-10-16 02:03)
+
+`Constitution/Governance Directives — the constitutional instructionern itself.txt` carries the
+corpus's most concrete governance mechanism — a four-class directive taxonomy (Interpretive,
+Operational, Structural, Prohibitive) and an eight-stage issuance lifecycle — and its §6–§9
+spine interfaces map directly onto the `Interfaces` part of `SPINE-CONTRACT.md`.
+
+It also, read literally, **forbids the build order in §1**, because the mandated lifecycle runs
+through an **Integrity Spine** and a **Master Spine**, neither of which is registered, and it
+names **Governance a Pillar** (the Constitution creates no such Pillar — it creates a Governance
+*Kernel* at Article III §3.1, within the Governance Spine).
+
+Full analysis, the two-order reconciliation, and the single decision it turns on:
+`P0_META/DIRECTIVE-FLOW-CONFLICT.md`.
+
 ## 6. Layer 4 — Directorates
 
 **Source:** `Directorates/DIRECTORATES.txt` (14 directorates, each with a routing list) and
@@ -235,6 +250,8 @@ retirement and recovery path.
 | B8 | **`SPINE-UVS` source digest mismatch** (`4ec9fc7b…` worktree vs `cdc9b950…` registered) | UVS source integrity; spine baseline | Founder |
 | B9 | **HallCo has no registered layer** | pillar overlays, execution context | Founder |
 | B10 | **`CONST-A-3` and 19 other rules recorded but not enforced** | agent registration enforcement | Founder |
+| B11 | **C12–C15** — "Governance Pillar", the unregistered directive-lifecycle spines (Integrity, Master), a self-validating issuer, and Master Spine supremacy | Layers 2, 3, 4; the directive mechanism itself | Founder |
+| B12 | **Does a Directorate precede or follow the directive mechanism?** | the entire build order | Founder |
 
 ## 10. What this order buys
 
