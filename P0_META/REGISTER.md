@@ -21,6 +21,7 @@
 | `RCA-PUB-META-005` | Spine Contract | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
 | `RCA-PUB-META-006` | Spine Baseline (layer 2 measurement) | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
 | `RCA-PUB-META-007` | Directive-Flow Conflict | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
+| `RCA-PUB-META-009` | Agent Inventory & Registration Readiness | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | C1, C2, C8, C9 | n/a |
 | `RCA-PUB-META-008` | Resolutions (proposed determinations) | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
 | `RCA-DEC-001` | **Founder Decision Record — Contradiction Resolutions** | Founder Decision Record | **EFFECTIVE** (Parts 1 and 3) | ratifies into the hierarchy of norms | TRUSTED | RESTRUCTURED | C2, C8, C9, C11 reserved | n/a |
 | `RCA-RAT-001` | Board Ratification Record for RCA-DEC-001 | Ratification Record | **RATIFIED — FORM B (SOLE BOARD MEMBER)** — `BOARD_REVIEW_DEBT` | outside the hierarchy of norms; ratifies RCA-DEC-001 | TRUSTED | RESTRUCTURED | C2, C8, C9, C11 reserved | n/a |
