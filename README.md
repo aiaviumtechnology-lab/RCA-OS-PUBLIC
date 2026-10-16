@@ -22,6 +22,7 @@ the system — in a form that can be read, cited, diffed, and cryptographically 
 | 4 | `RCA-PUB-001` — **Constitutional Intent** | The Constitution: supreme authority, Articles I–XV, amendments |
 | 5 | `RCA-PUB-002` — **Governance Spine** | How governance is meant to be interpreted and enforced |
 | 6 | `RCA-PUB-003` — **Governance & Strategic Mandate** | The operational doctrine (financial mandate, directorates) — doctrine, not law |
+| + | [`P0_META/BUILD-ORDER.md`](P0_META/BUILD-ORDER.md) · [`2_GOVERNANCE-SPINE/SPINE-CONTRACT.md`](2_GOVERNANCE-SPINE/SPINE-CONTRACT.md) · [`2_GOVERNANCE-SPINE/SPINE-BASELINE.md`](2_GOVERNANCE-SPINE/SPINE-BASELINE.md) | Build order, spine contract, and the measured spine baseline |
 
 Sections 4–6 are published one at a time; see [`_BUILD-STATE.md`](_BUILD-STATE.md) for the
 sequence and what is pending.
@@ -79,6 +80,16 @@ conflict (three tiers vs five), a conflict over what the Safety Spine is, and th
 authority status of Document #1 — are recorded in full in
 [`P0_META/CONTRADICTIONS.md`](P0_META/CONTRADICTIONS.md). They are published rather than
 hidden, because a governance system that conceals its conflicts is not one.
+
+## How the framework is being completed
+
+The Founder set the construction order: **Constitution → Spines → Pillars → Directorates**,
+then Policies and Regulations, then Agents — so that an agent is built against a finished
+framework rather than an aspiration.
+
+Measured progress and per-layer completion criteria: [`P0_META/BUILD-ORDER.md`](P0_META/BUILD-ORDER.md).
+What makes a spine complete: [`2_GOVERNANCE-SPINE/SPINE-CONTRACT.md`](2_GOVERNANCE-SPINE/SPINE-CONTRACT.md).
+Where Layer 2 actually stands: [`2_GOVERNANCE-SPINE/SPINE-BASELINE.md`](2_GOVERNANCE-SPINE/SPINE-BASELINE.md).
 
 ## Rights
 
