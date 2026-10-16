@@ -123,6 +123,62 @@ both are published with the conflict flagged.
 - **Owner decision required:** yes — ratify a volume index (Register §7 decision 5) or drop
   volume numbering in public documents.
 
+### C8 — Spine inventory: which concepts are spines?
+- **Severity:** S1 — Blocking
+- **A (controlling):** `SPINE_TRACEABILITY.yaml` registers 15 spines: UVS, HALLCO, DEEPGUARD,
+  RRPO-SRE, Reasoning, Execution, Safety, Audit, Identity, Temporal, Event, World-State,
+  Arbitration, Governance, Verification. Global Health Monitor is registered as a **UVS child
+  component, not a sixteenth spine**.
+- **B:** `Spines/spines that need to be done .txt` and `Spines/— each spine is a separate
+  constitutional subsystem…` name **Audit, Safety, Identity, Data, Arbitration, Enforcement,
+  Execution, World-State** — and in one version also **Memory**. The same file concludes
+  "100% Spine completion across RCA‑OS".
+- **Consequence:** **Data, Enforcement and Memory** are claimed as spines and are absent from
+  the registry. Eleven registered spines have no source document at all. Two lists describing
+  different systems means no completion claim about either can be validated.
+- **Blocks:** all of Layer 2 (Spines). See `2_GOVERNANCE-SPINE/SPINE-BASELINE.md`.
+- **Owner decision required:** yes — register Data/Enforcement/Memory as spines, or record them
+  as subsystems of a registered spine and correct the working documents.
+
+### C9 — Directorate models: fourteen or seven?
+- **Severity:** S1 — Blocking
+- **A:** `Directorates/DIRECTORATES.txt` — 14 directorates: Intelligence, Security, Memory,
+  Integrity, R&D, Observability, Executive, Network, CI/DI, Board, Coding, Research, Cloud,
+  Arbitration.
+- **B:** `Constitution/_#1 — Governance & Strategic Mandate.txt` §4 — seven AI Directorates:
+  Prometheus (CEO), Code-Weaver (R&D software), Silicon-Forge (R&D hardware), Vox (product &
+  sentiment), Aegis (compliance & legal), Nexus (operations & supply chain), Abacus (finance).
+- **C:** `docs/RCA_OS_CONSTITUTION_VOLUME_VI.md` (live private repo) — a third arrangement,
+  placing Founder, CEO, CFO, General Counsel, Chief Human Officer, Chief Governance Officer
+  and the Board inside an *Executive Directorate*.
+- **Consequence:** Directorate authority, escalation paths and agent ownership differ under
+  each arrangement. Layer 4 cannot be completed against three models.
+- **Owner decision required:** yes.
+
+### C10 — Pillar set: seven or eleven?
+- **Severity:** S1 — Blocking
+- **A (controlling):** `PILLAR_TRACEABILITY.yaml` and the canonical Constitution name **seven**:
+  Execution, Safety, Audit, Identity, Temporal, Event, World-State.
+- **B:** `Pillars/📘 RCA‑OS PILLAR COMPLETION SET…` states "all 11 Pillars fully drafted:
+  Constitution, Governance, Operations, Audit, Safety, Storage, Network, Identity, Temporal,
+  Event, World-State" — and in one passage replaces Operations with Execution.
+- **Consequence:** **Governance, Operations, Storage and Network** are unregistered pillars.
+  Governance is *also* a Directorate and a registered Spine — one name across three layers.
+  "Operations" collides with the Execution Pillar's declared scope ("Execution, Runtime, and
+  System-Level Operations"). Storage/Network overlap the unregistered Data/Enforcement spines
+  in C8.
+- **Owner decision required:** yes.
+
+### C11 — HallCo has no registered layer
+- **Severity:** S2 — Material
+- **A:** Every pillar draft in `Pillars/` ends with a "HallCo Overlay" article.
+- **B:** HallCo appears in the corpus as an execution context, an agent, and a constrained
+  jurisdiction, and appears in the UVS pipeline ("HALLCO") as the first verification gate.
+- **Consequence:** an overlay is being applied by a concept with no registered pillar, spine,
+  or directorate. Whether "HallCo" and "HALLCO" are the same entity is unrecorded, and
+  C2 (Safety Spine composition) turns on part of that question.
+- **Owner decision required:** yes.
+
 ---
 
 ## How to close a contradiction
