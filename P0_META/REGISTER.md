@@ -20,6 +20,9 @@
 | `RCA-PUB-META-004` | Constitutional Build Order | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
 | `RCA-PUB-META-005` | Spine Contract | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
 | `RCA-PUB-META-006` | Spine Baseline (layer 2 measurement) | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
+| `RCA-PUB-META-007` | Directive-Flow Conflict | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
+| `RCA-PUB-META-008` | Resolutions (proposed determinations) | Publication Control | Active | outside the hierarchy of norms | TRUSTED | RESTRUCTURED | none | n/a |
+| `RCA-DEC-001` | **Founder Decision Record — Contradiction Resolutions** | Founder Decision Record | **AWAITING COUNTERSIGNATURE** | outside the hierarchy of norms until ratified | TRUSTED | RESTRUCTURED | C2, C8, C9, C11 reserved | n/a |
 | `RCA-PUB-001` | Constitutional Intent (Part I–IV) | Constitution | Canonical text, ratification evidence outstanding | rank 1 (supreme) | TRUSTED | EXACT | none | partial (47/70 compiled rules enforced) |
 | `RCA-PUB-002` | Governance Spine | Spine | Draft | rank 4 (subordinate specification) | UNVERIFIED | RESTRUCTURED | C2, C7 | no |
 
