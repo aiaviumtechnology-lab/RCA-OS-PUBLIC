@@ -32,24 +32,42 @@ both are published with the conflict flagged.
 
 ## Open contradictions
 
-**Open contradictions: 15** — C1–C15. Proposed determinations for every one: `RESOLUTIONS.md`.
+**Open contradictions: 4** — **C2, C8, C9, C11**. The other eleven **closed on 2026-10-16** by
+`RCA-DEC-001` Part 1 under `RCA-RAT-001` (form B — sole-member ratification; see the standing
+`BOARD_REVIEW_DEBT` below).
 
-### C1 — ACT clearance tiers: three or five?
-- **Severity:** S2 — Material
-- **A:** `Constitution/STRUCTURE OF THE CONSTITUTION.docx.txt` §5 — ACT defines **G1** Supreme
-  constitutional authority, **G2** Schema and structural authority, **G3** Operational and
-  execution authority (three tiers). Registered source; feeds `RULES.yaml`.
-- **B:** `Constitution/_#1 — Governance & Strategic Mandate.txt` §2.7 — five tiers:
-  G1 Executive (full system access, ethics controls, kill switches), G2 Strategic Oversight,
-  G3 Directorate Lead, G4 Specialist, G5 Sub-Agent.
-- **Consequence:** every clearance check, agent registration, and rule that names a tier resolves
-  differently under A and B. A component granted "G1 Executive / full system access" under B
-  has no equivalent under A.
-- **Blocks:** agent registration prerequisites (`CONST-A-3`), TCO clearance rules
-  (`AM-XX §5` uses G1/G2/G3 and matches A).
-- **Note:** `AM-XX §5` (active amendment) uses **three** tiers. That is evidence for A, not a
-  resolution.
-- **Owner decision required:** yes.
+### CLOSED 2026-10-16 (11)
+
+Closed by `RCA-RAT-001`. Each closure is a recorded Founder determination applying authority that
+existed before it — none created new authority.
+
+| ID | Determination | Instrument |
+|---|---|---|
+| C1 | ACT clearance is **three tiers: G1/G2/G3**; Document #1's five-tier table is non-authoritative; "G1 Executive — full system access" is Founder authority, not a clearance | `STRUCTURE OF THE CONSTITUTION §5`; `AM-XX §5` |
+| C3 | Financial mandate is **doctrine**, rank 6 | Register §1 |
+| C4 | Document #1 is **doctrine, rank 6**; its supremacy claims are struck | `AM-XIX §8`; Register §1 |
+| C5 | The seven principles are **binding policy**, not invariants; "cannot be overridden" struck | Register §5 |
+| C6 | A2A is the sole agent-to-agent **transport**; the Supervisor is the sole **orchestration/routing** authority; "no peer-to-peer" corrected to "no unregistered routing" | `CONST-HIER-2` |
+| C7 | **Articles I–XV only**; volumes kept with a mapping note, never renumbered | Register §2, §5 |
+| C10 | **Seven pillars**; Governance, Operations, Storage and Network are not pillars | `PILLAR_TRACEABILITY.yaml` |
+| C12 | **No Governance Pillar exists.** Article III §3.1 creates a Governance **Kernel** (function); the issuer is the Governance Directorate through the Governance Spine | Article III §3.1 |
+| C13 | Integrity Spine → **Verification Spine / UVS**; Master Spine → **Governance Spine**. No new spine | Article X; Register §5 |
+| C14 | Separation mandatory: **issuer ≠ validator ≠ registrar ≠ auditor**; directives rank **below policies** ("Henceforth law" struck) | `AM-XIX §5`; `AM-XXI §4`; Article III §3.2 |
+| C15 | "Master Spine" is a **lattice tier**, not a spine ID; supremacy struck | Article IX §9.2 |
+
+**Standing debt:** every closure above, and every instrument activated under `RCA-RAT-001`, carries
+`BOARD_REVIEW_DEBT` — the first constituted Board must review the sole-member ratification. The
+Founder's attestation of 2026-10-16: the Board does not yet exist because the Executive
+Directorate has not been built, so the Founder is the only member able to ratify.
+
+---
+
+## Closed contradiction records (C1, C3–C7, C10, C12–C15)
+
+> The four open contradictions are C2, C8, C9 and C11 — they appear immediately below.
+
+Closed 2026-10-16 by `RCA-DEC-001` Part 1 / `RCA-RAT-001`. Evidence retained as the audit trail.
+
 
 ### C2 — What is the "Safety Spine"?
 - **Severity:** S2 — Material
@@ -245,18 +263,40 @@ both are published with the conflict flagged.
 
 ---
 
+### C1 — ACT clearance tiers: three or five?
+- **Severity:** S2 — Material
+- **A:** `Constitution/STRUCTURE OF THE CONSTITUTION.docx.txt` §5 — ACT defines **G1** Supreme
+  constitutional authority, **G2** Schema and structural authority, **G3** Operational and
+  execution authority (three tiers). Registered source; feeds `RULES.yaml`.
+- **B:** `Constitution/_#1 — Governance & Strategic Mandate.txt` §2.7 — five tiers:
+  G1 Executive (full system access, ethics controls, kill switches), G2 Strategic Oversight,
+  G3 Directorate Lead, G4 Specialist, G5 Sub-Agent.
+- **Consequence:** every clearance check, agent registration, and rule that names a tier resolves
+  differently under A and B. A component granted "G1 Executive / full system access" under B
+  has no equivalent under A.
+- **Blocks:** agent registration prerequisites (`CONST-A-3`), TCO clearance rules
+  (`AM-XX §5` uses G1/G2/G3 and matches A).
+- **Note:** `AM-XX §5` (active amendment) uses **three** tiers. That is evidence for A, not a
+  resolution.
+- **Owner decision required:** yes.
+
+
 ## How to close a contradiction
 
 ### Status (2026-10-16)
 
-Fifteen contradictions are open. `RESOLUTIONS.md` carries a proposed determination for each:
-**11 close on the Founder's signature** (they are errors — a document disagreeing with the
-Register about its own status, a rule asserting an ungranted authority, a stale digest), and
-**4 need a decision** (C2 Safety Spine, C8/C13 spine inventory, C9 directorate model, C11
-HallCo terminology).
+**11 closed, 4 open.** `RCA-DEC-001` Part 1 closed the eleven as errors, applying authority that
+existed before it; `RCA-RAT-001` records the ratification. The four that remain open are
+**decisions about what RCA-OS is**, not errors:
 
-Until signed, every one of them remains **open**, and no published section may be cited as
-settling any of them.
+| ID | Open question | Blocks |
+|---|---|---|
+| **C2** | Is the Safety Spine the UVS pipeline, or a distinct spine needing its own Article? | Safety pillar; UVS enforcement; spine-set completion |
+| **C8** | Are Data / Enforcement / Memory spines? | Spine-set completion (Layer 2) |
+| **C9** | Are the 14 directorates and the 7 executive roles two tiers or two competing lists? | Directorate-set completion (Layer 4) |
+| **C11** | HallCo and HALLCO are one entity — which acronym expansion? | Terminology; pillar overlays |
+
+Recommendations for all four are in `RESOLUTIONS.md` Part 2 (recorded, **not adopted**).
 
 1. Founder records a decision (and Board ratification where the Register requires it).
 2. The affected source text is amended through the lawful process, or the losing document is

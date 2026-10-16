@@ -2,8 +2,8 @@
 
 **Document ID:** `RCA-RAT-001`
 **Document Class:** Ratification Record
-**Version:** 1.0.0
-**Status:** **PROVISIONAL — NOT EFFECTIVE**
+**Version:** 1.1.0
+**Status:** **RATIFIED — FORM B (SOLE BOARD MEMBER) — EFFECTIVE ON COMMIT**
 **Prepared:** 2026-10-16
 **Read with:** `RCA-DEC-001.md` (Founder Decision Record)
 **Publication class:** `PUBLIC`
@@ -13,92 +13,105 @@
 ## 1. Purpose of this record
 
 `CONSTITUTIONAL REGISTER.md §4` requires a **Board ratification record** before an instrument of
-this weight is operationally activated. The Founder chose the ratification path on 2026-10-16.
-
-This record holds the evidence the Register requires. **It is not the evidence itself.** The
-Register requires a *record*, and a record of a Board act that has not occurred is not one.
+this weight is operationally activated. The Founder chose the ratification path on 2026-10-16 and
+supplied the ratification in **form B** on the same date.
 
 ## 2. The evidence the Register requires
 
 | # | Register §4 requirement | State |
 |---|---|---|
-| 1 | Amendment / instrument text and version | **met** — `RCA-DEC-001.md` v1.0.0, digest `8523fb15…` |
+| 1 | Instrument text and version | **met** — `RCA-DEC-001.md` v1.0.0 |
 | 2 | Constitutional impact and compatibility review | **met** — `DIRECTIVE-FLOW-CONFLICT.md`, `RESOLUTIONS.md`, `BUILD-ORDER.md` |
-| 3 | **Founder signature record** | **met** — instruction recorded 2026-10-16; key `9AF7 DF48 0794 BA5B F08A 519B 39C8 F597 3460 BB6D` |
-| 4 | **Board ratification record** | **NOT MET — see §3** |
-| 5 | Activation timestamp and effective scope | pending §4 |
+| 3 | **Founder signature record** | **met** — instruction 2026-10-16; key `9AF7 DF48 0794 BA5B F08A 519B 39C8 F597 3460 BB6D` |
+| 4 | **Board ratification record** | **met — FORM B, see §3** |
+| 5 | Activation timestamp and effective scope | **met — see §4** |
 | 6 | Cryptographic digest or equivalent immutable record | **met** — `P0_META/DIGESTS.txt`; GPG detached signature available |
 | 7 | Supersession and rollback relationship | **met** — supersedes `RCA-PUB-META-008`; rollback is `git revert` of the activation commit |
 
-**Six of seven are satisfied. Item 4 is the only gap, and it is the one this record exists for.**
+**All seven requirements are satisfied.**
 
-## 3. Why item 4 is not yet met (and is not a formality)
+## 3. Form of ratification — FORM B, SOLE BOARD MEMBER
 
-`AM-XIX §3` grants the Board the power to *"Ratify constitutional appointments, structures, and
-system-level authorities where this Constitution requires it."*
+### 3.1 The Founder's attestation (2026-10-16, verbatim)
 
-`RCA-DEC-001` decides **what counts as a spine, what counts as a pillar, and what counts as a
-directorate**. Those are *structures* under `AM-XIX §3` in the plainest sense. Ratification of
-them is therefore a Board power and not an administrative step.
+> *"the board has not been created yet. because the exec brd has not been created. So i'm the only
+> member that can ratify"*
 
-**A Board act requires a Board.** A record of a Board decision that has not been taken is a
-fabricated instrument, and `Invariant F-5` requires every Founder or Board act affecting RCA-OS
-to be *attributable and auditable*. An unattributable record fails that test.
+### 3.2 What this establishes
 
-**Therefore the Board ratification reference must come from you as an actual, attributable
-Board act**, in one of the forms below. I am not able to supply it, and I will not invent one.
+- **The Board of Directors does not yet exist.** It is an institution to be created by the
+  Executive Directorate layer, which is itself Layer 4 of the build order and not yet built.
+- **`AM-XIX §3`'s Board powers are presently vested in a single natural person**, Samuel
+  Stevenson, as the only member capable of exercising them.
+- **No Board deliberation occurred**, and none is claimed. This is a **sole-member ratification**,
+  which is a materially weaker form of evidence than a board resolution and is recorded as such.
 
-### 3.1 Accepted forms
+### 3.3 The constitutional problem this creates (recorded, not concealed)
 
-Give me **one** of these and I complete item 4 in the same change:
+`AM-XIX §1` and `Invariant F-1` make the **Constitution** supreme over every human authority,
+including the Founder. `Invariant F-6` requires **Board ratification** before a constitutional
+change activates — and the Board does not exist.
 
-| Form | What to say | What I record |
-|---|---|---|
-| **A. Board resolution** | *"Board resolution BR-001, adopted \<date\>, ratifying RCA-DEC-001 in full"* | the resolution ID, date, and adopting authority |
-| **B. Sole-Board-member act** | *"As sole Board member of Aether Core Dynamics, I ratify RCA-DEC-001"* | your name as the ratifying member, with the attestation that you are the sole member |
-| **C. Board record reference** | *"Board approval recorded \<date\> by \<who\>, reference \<id\>"* | that reference verbatim |
+Two honest readings exist, and the record states both rather than choosing quietly:
 
-**If form B applies, say so explicitly.** "Sole board member" is a materially different
-attestation from "the Board resolved", and the record must distinguish them — an auditor reading
-this in five years has to be able to tell whether a board deliberated or whether a founder
-ratified their own instrument alone.
+| Reading | Consequence |
+|---|---|
+| **R1 — Requirement vacuous** | The Board requirement binds only once a Board exists; until then the Founder is the sole ratifying authority and F-6 is satisfied by the Founder's own ratification. |
+| **R2 — Requirement unmet** | F-6 is unmet until a Board exists, so nothing can activate; the corpus is frozen at design-baseline status until Layer 4 produces the Board. |
 
-## 4. Activation block (completed only on evidence)
+**This record proceeds under R1**, because R2 would forbid the Executive Directorate from ever
+being created (its creation requires ratified structures), and because `AM-XIX §6` explicitly
+contemplates the Founder acting alone in the absence of other authority. **R1 is a reading, not a
+proven fact, and it is recorded so that a later Board can review it.**
+
+### 3.4 The debt this creates — and its repayment
+
+The Board's first act, on creation, must be to **review and ratify or reverse this record**.
+Until that happens, every instrument activated under it carries a **standing ratification debt**,
+marked `BOARD_REVIEW_DEBT` in the register. An instrument carrying that marker is effective, and
+is also explicitly provisional against future Board review.
+
+**Creating the Board is therefore the first obligation Layer 4 produces**, and it is recorded as
+such in `BUILD-ORDER.md` Layer 4.
+
+## 4. Activation block
 
 ```
 Instrument:            RCA-DEC-001  Contradiction Resolutions, v1.0.0
-Founder signature:     recorded 2026-10-16  (key 9AF7 DF48 ... 3460 BB6D)
-Board ratification:    ____________________________________________
-                       form A / B / C   — reference and date required
-Activation timestamp:  ____________________________________________
+Founder signature:     recorded 2026-10-16
+                       key 9AF7 DF48 0794 BA5B F08A  519B 39C8 F597 3460 BB6D
+Board ratification:    FORM B — sole member
+                       ratified by: Samuel Stevenson
+                       attestation: Board not yet created; sole capable member
+                       date: 2026-10-16
+Activation timestamp:  2026-10-16 (America/Chicago)
 Effective scope:       parts 1 and 3 of RCA-DEC-001
 Supersedes:            RCA-PUB-META-008 (Resolutions, proposed)
 Rollback:              revert the activation commit; contradictions reopen
-Promotes to EFFECTIVE:____________________________
+Standing debt:         BOARD_REVIEW_DEBT — the first Board must review this record
 ```
 
-## 5. Effect when §4 is completed
+## 5. Effect
 
-1. All 11 contradictions in Part 1 of `RCA-DEC-001` **close**; `CONTRADICTIONS.md` is updated
-   in the same change.
-2. The 5 rule-set corrections in Part 3 are **applied** to `RULES.yaml` and the Register.
+1. All 11 contradictions in Part 1 of `RCA-DEC-001` **close**; `CONTRADICTIONS.md` is updated in
+   the same change.
+2. The 5 rule-set corrections in Part 3 are **applied**.
 3. Four contradictions (**C2, C8, C9, C11**) **remain open** — Part 2 was reserved, not decided.
-4. Layer 2 (Spines) is **unblocked to begin**; it cannot be declared complete until Part 2.
+4. Layer 2 (Spines) is **unblocked**; it cannot be declared complete until Part 2 is decided.
+5. Every instrument activated under this record carries `BOARD_REVIEW_DEBT`.
 
-## 6. Interim state — the provisional working authority
+## 6. The Board's first act
 
-The Founder also directed the provisional path, which is narrower and does **not** depend on this
-record. Under that authority, corrections may be applied **to the working tree and the private
-working documents**, marked `PROVISIONAL — NOT EFFECTIVE`, so the drafting of Layer 2 can
-proceed.
+When the Executive Directorate is built and the Board is created, its first recorded act is:
 
-Anything produced under provisional authority:
+```
+[ ] Review RCA-RAT-001 (sole-member ratification, 2026-10-16)
+[ ] Ratify  — instruments become permanently effective; BOARD_REVIEW_DEBT clears
+[ ] Reverse — instruments revert; contradictions reopen; build order re-plans
+```
 
-- is **not** published as settled;
-- **cannot** be cited as authority by any component;
-- must be **re-verified** against the effective record when §4 is completed.
-
-See `P0_META/PROVISIONAL.md`.
+Until that act, the Board requirement of `Invariant F-6` is **satisfied by reading R1 and not by
+institutional fact**. That distinction is the whole reason this record exists in this shape.
 
 ---
 
@@ -107,9 +120,10 @@ See `P0_META/PROVISIONAL.md`.
 ```
 sha256(RCA-RAT-001.md):  <recorded in P0_META/DIGESTS.txt>
 Founder key:             9AF7 DF48 0794 BA5B F08A  519B 39C8 F597 3460 BB6D
-Board reference:         ______________________________  (required, §3.1)
+Ratification form:       B — sole Board member
+Standing debt:           BOARD_REVIEW_DEBT
 ```
 
-**Publication control notice.** Prepared by the RCAOS agent. This record carries no authority and
-activates nothing. It exists to hold the evidence Register §4 requires, and it is deliberately
-incomplete until that evidence exists.
+**Publication control notice.** This record activates the determinations in `RCA-DEC-001` Parts 1
+and 3. It does not decide the four reserved contradictions, creates no authority, and carries a
+recorded debt to the first constituted Board.
